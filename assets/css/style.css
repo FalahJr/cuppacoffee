@@ -1,0 +1,112 @@
+.bannerKopi {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -20;
+}
+
+.btnCoklat {
+  background-color: #5D3E1F;
+}
+
+body {
+  background-color: #F4FBFD;
+  font-family: 'Sniglet', cursive;
+}
+
+.line {
+  width: 200px;
+  height: 2px;
+  background-color: black;
+}
+
+.enjoy {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+}
+
+.panah {
+  position: absolute;
+}
+
+.logocc1 {
+  position: relative;
+  margin-top: 300px;
+}
+
+.footer-atas {
+  background-color: #5D3E1F;
+  bottom: 10px;
+  left: 0px;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+}
+
+.navbarHome {
+  padding: 40px;
+}
+
+.btnCoklat{
+      background-color: #5D3E1F;
+  }
+  .tremos{
+      position: absolute;
+      /* bottom: 20px; */
+      right: 100px;
+  }
+
+.kembang{
+      position: absolute;
+      /* bottom: -320vh; */
+  top: 320vh;
+      right: 2px;
+  }
+ 
+  .line{
+      width: 250px;
+      height: 2px;
+      background-color: black;
+  }
+  .list .my-2{
+      font-size: 32px;
+      font-size: bold;
+  }
+  .bubbleBottom{
+      /* position: absolute; */
+      margin-top: 170px;
+      margin-left: 70px;
+  }
+  .panah{
+      position: absolute;
+  }
+.separator {
+  width: 50%;
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+.separator::before,
+.separator::after {
+content: '';
+flex: 1;
+border-bottom: 1px solid white;
+}
+
+.separator:not(:empty)::before {
+margin-right: .5em;
+/* width: 10px; */
+}
+
+.separator:not(:empty)::after {
+margin-left: .5em;
+}
+
+ul .link-menu a{
+color:#4C3F3F;
+text-decoration: none;
+}
